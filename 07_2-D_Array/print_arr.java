@@ -20,7 +20,7 @@ public class print_arr {
 
     }
 
-    //min and max
+    //min and max fun
     public static int min_max(int matrix[][])
     {
         int min= Integer.MAX_VALUE;

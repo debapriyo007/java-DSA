@@ -20,7 +20,7 @@ public class hello_world {
 ```
 ---
 ## 🔗[Java-Basic](https://github.com/debapriyo007/java-Basic/)
-## ![Code Screenshot](https://scontent.fccu16-1.fna.fbcdn.net/v/t39.30808-6/324876808_643409607553836_5308322544307398263_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=EdmerUq5pmwAX92os2k&_nc_ht=scontent.fccu16-1.fna&oh=00_AfDa1NBTashEZgINIAAgoNkVp2tXulqnODIjeWl9im8gqQ&oe=63C315F9)
+## ![Code Screenshot](https://github.com/debapriyo007/java-Basic/blob/main/Screenshot%20(15).png?raw=true)
 ## 🧑‍💻 Description 
 #### 📌 _This is  Codes that i uploaded. More codes will be uploaded as soon as possible_ 🔜..
 ##### Java is a multi-platform, object-oriented, and network-centric programming language Java is a general-purpose, class-based, object-oriented programming language. Java Platform is a collection of programs that help programmers to develop and run Java applications efficiently.

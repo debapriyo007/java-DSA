@@ -3,9 +3,9 @@
 ---
 ## **🤷‍♂️ABOUT THIS REPOSITORY**
 
-- **Total Data Structure  is covering.**
+- **Total Data Structure  is cover.**
 - **Multiple Basic questions are cover.**
-- **Describe  the code proper way with given comments**
+- **Describe  the code proper way with given comments.**
 - **You can easily find any tropics according to the folders name.**
 ---
 ###### This is all of our `first code` in any languages. 😁

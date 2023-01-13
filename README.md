@@ -20,6 +20,8 @@ public class hello_world {
 ```
 ---
 ### 🛠️ Help me to fix this code 
+#### To fix click here 👉[upper_case.java](https://github.com/debapriyo007/java-Basic/blob/main/08_String/upper_case.java)
+
 ```python
 public class upper_case {
 

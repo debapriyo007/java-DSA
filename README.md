@@ -19,6 +19,44 @@ public class hello_world {
 }
 ```
 ---
+### 🛠️ Help me to fix this code 
+```python
+public class upper_case {
+
+    //Each word first letter to upper case
+
+    public static String topperCase(String str)
+    {
+        StringBuilder sb = new StringBuilder(" ");
+        char ch =Character.toUpperCase(str.charAt(0));
+        sb.append(ch);
+        for(int i=1;i<str.length();i++)
+        {
+            if(str.charAt(i) == " "&& i<str.length()-1)    //📌<---Error is showing in this line.
+            {
+               sb.append(str.charAt(i));
+               i++;
+               sb.append(Character.toUpperCase(str.charAt(i)));
+            }
+            else
+            {
+                sb.append(str.charAt(i));
+            }
+        }
+        return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        
+        String str ="i am debariyo";
+        System.out.println(topperCase(str));
+
+    }
+    
+}
+
+```
+---
 ## 🔗[Java-Basic](https://github.com/debapriyo007/java-Basic/)
 ## ![Code Screenshot](https://raw.githubusercontent.com/debapriyo007/java-Basic/main/Screenshot%20(15).png)
 ## 🧑‍💻 Description 

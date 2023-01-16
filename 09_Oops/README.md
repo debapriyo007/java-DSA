@@ -6,7 +6,9 @@
  ###### Suppose, you have create an BANK INFO and you want your PASSWORD does't access any-one out of your class.You want in your class functions are like setPassword(), getPassword(), and much more rather than no one can access your password.
  
  #### If you want you create  a "Package".
- #### Like --------------> **"GOOGLE"**
+ ## Like 👇
+ ![](http://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif)
+ ---
  #### **"GOOGLE"** have multiple package.like MAPS, PAYMENT,CHROME.
  ###### We assume that "MAPS" all codes are in one package .This code are written 4-5 file This file is called **PACKAGE**.
 - ##### we dont need our "Payment Package " data is known by "Maps".

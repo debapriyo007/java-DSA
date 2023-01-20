@@ -39,15 +39,8 @@ public class hello_world {
  
   
 ---
-## 🚀 About Me
-Hi, 👋 I'm Debapriyo.<br>Student Of <b>``Bengal Institute Of Technology``</b>.<br>I love to explore new new things.✌
 
-## 🔗Profile Links
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/debapriyo-das-864b93259)
-[![Website Badge](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)]( https://debapriyo007.github.io/mycv.github.io/)
-[![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/bamapada.das.56)
-[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/debapriyo_009)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/debapriyo007)
+#### Stay Tune😊🤞
 
 
 

@@ -1,7 +1,7 @@
 # **🎯JAVA BASIC**
 ## _This is Java-Basic repository.I keep basics questions in this repository.._
 ---
-## **🤷‍♂️ABOUT THIS REPOSITORY**
+## **🤷‍♂️ABOUT THIS REPOSITORY:**
 
 - **Total Data Structure  is cover.**
 - **Basic questions are cover.**

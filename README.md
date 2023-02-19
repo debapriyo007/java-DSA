@@ -1,10 +1,10 @@
 # **🎯JAVA DSA**
-## _This is Java-Basic repository.I keep basics questions in this repository.._
+## _This is Java-DSA repository.I keep basics questions in this repository.._
 ---
 ## **🤷‍♂️ABOUT THIS REPOSITORY:-**
 
 - **Total Data Structure  is cover.**
-- **Basic questions are cover.**
+- **Imp questions are cover.**
 - **Describe  the code proper way with given comments.**
 - **You can easily find any tropics according to the folders name.**
 ---
@@ -19,7 +19,7 @@ public class hello_world {
 }
 ```
 
-## 🔗[Java-Basic](https://github.com/debapriyo007/java-Basic/)
+## 🔗[Java-DSA](https://github.com/debapriyo007/java-Basic/)
 ## ![Code Screenshot](https://raw.githubusercontent.com/debapriyo007/java-Basic/main/Screenshot%20(15).png)
 ## 🧑‍💻 Description 
 #### 📌 _This is  Codes that i uploaded. More codes will be uploaded as soon as possible_ 🔜..

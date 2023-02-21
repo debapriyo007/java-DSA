@@ -1,5 +1,5 @@
 # **🎯JAVA DSA**
-## _This is Java-DSA repository.I keep basics questions in this repository.._
+## _This is Java-DSA repository.I keep my all questions in this repository.._
 ---
 ## **🤷‍♂️ABOUT THIS REPOSITORY:-**
 

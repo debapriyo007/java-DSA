@@ -7,6 +7,7 @@ public class prbl_3 {
             return 1;
         }
         int f= factorial(n-1);
+         //This following steps are backtracking
         int fn= n*f;
         return fn;
     }

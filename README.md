@@ -8,12 +8,12 @@
 - **Describe  the code proper way with given comments.**
 - **You can easily find any tropics according to the folders name.**
 ---
-###### This is all of our `first code` in any languages. 😁
+###### 😁
 ```python
 public class hello_world {
     public static void main(String[] args) {
 
-        System.out.println("Hello world");
+        System.out.println("Well Come to Java-DSA");
        
        }
 }
@@ -36,6 +36,9 @@ public class hello_world {
  - 📂 [**08_String**](https://github.com/debapriyo007/java-Basic/tree/main/08_String)
  - 📂 [**09_Oops**](https://github.com/debapriyo007/java-Basic/tree/main/09_Oops)
  - 📂 [**10_Array_List**](https://github.com/debapriyo007/java-Basic/tree/main/10_Array_List)
+ - 📂 [**11_Recursion**](https://github.com/debapriyo007/java-Basic/tree/main/11_Recursion)
+ - 📂 [**12_Divide & Conquer**](https://github.com/debapriyo007/java-DSA/tree/main/12_Divide_%26_Conquer)
+ - 📂 [**13_Backtracking**](https://github.com/debapriyo007/java-DSA/tree/main/12_Divide_%26_Conquer)
  
  
   

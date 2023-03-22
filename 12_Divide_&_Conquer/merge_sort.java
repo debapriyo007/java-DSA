@@ -27,9 +27,9 @@ public class merge_sort {
     
     public static void merge(int arr[], int si, int mid , int ei){
         int tem[] =new int[ei-si+1];  //create a temporary arrayy..
-        int i = si;
-        int j = mid+1;
-        int k =0;
+        int i = si;// this iterater for the left sub array..
+        int j = mid+1;  //this iterater for the right sub aray
+        int k =0;  // this is for the tem array..
         
         while(i<=mid && j<=ei){
             if(arr[i]<arr[j]){
@@ -50,7 +50,7 @@ public class merge_sort {
             tem[k++]= arr[j++];
         }
         
-        // copy the element in original
+        // copy the element in original...
         for(k=0, i=si;k<tem.length; k++, i++){
            arr[i] =tem[k];
         }

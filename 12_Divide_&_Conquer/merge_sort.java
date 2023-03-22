@@ -1,8 +1,5 @@
 public class merge_sort {
     
-
-
-    
     // printArr fun
     public static void printArr(int arr[]){
         for(int i=0;i<arr.length;i++){

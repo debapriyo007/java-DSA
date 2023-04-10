@@ -56,15 +56,39 @@ public class LinkList {
 
     }
 
-    //Print Linklist function...
+    // add middle in the linklist..
 
-    public void printLinklist(){
-        if(head == null){
+    public void addMiddle(int indx, int data) {
+        //some one add at index 0 ..
+        if(indx ==0){
+            addFirst(data);
+            return;
+        }
+        // create new node...
+        Node newNode = new Node(data);
+        Node tem = head;
+        int i = 0; // intial the index from 0
+        while (i < indx - 1) {
+            tem = tem.next;
+            i++;
+        }
+
+        // new node will pointing tem next..
+        newNode.next = tem.next;
+        // tem next will pointing new node
+        tem.next = newNode;
+
+    }
+
+    // Print Linklist function...
+
+    public void printLinklist() {
+        if (head == null) {
             System.out.println("LinkList is Empty!");
             return;
         }
         Node tem = head;
-        while(tem!= null){
+        while (tem != null) {
             System.out.print(tem.data + "-->");
             tem = tem.next;
         }
@@ -80,16 +104,13 @@ public class LinkList {
         // inside the class. like ---> add(), remove(), printll(), search().
         // ll.head = new Node(1);
         // ll.head.next = new Node(1);
-        ll.printLinklist();
+        //ll.printLinklist();
         ll.addFirst(2);
-        ll.printLinklist();
         ll.addFirst(1);
-        ll.printLinklist();
         ll.addLast(3);
-        ll.printLinklist();
         ll.addLast(4);
+        ll.addMiddle(2, 9);
         ll.printLinklist();
-        
 
     }
 

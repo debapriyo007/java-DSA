@@ -42,7 +42,7 @@ public class linklist4 {
         boolean iscycle = false;
         while(fast!= null && fast.next!= null){
             slow = slow.next;
-            fast = fast.next;
+            fast = fast.next.next;
             if(slow == fast){
                 iscycle = true;
                 break;

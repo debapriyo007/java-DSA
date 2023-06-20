@@ -1,7 +1,8 @@
 import java.util.*;
 public class prb_05 {
     public static void main(String[] args) {
-        int arr[]= {6,8,0,1,3};
+        //int arr[]= {6,8,0,1,3};
+        int arr[]= {2,3,9,10,1};
         //creating a stack..
         
         Stack<Integer> s = new Stack<>();
@@ -26,3 +27,8 @@ public class prb_05 {
         System.out.println();
     }
 }
+
+//Next Greater Right--->This code..
+//Next Greater Left ---> for loop reverse..
+//next smaller right---> change while loop condition..
+//next smaller left --->for loop reverse and change while loop condition.

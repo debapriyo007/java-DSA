@@ -6,17 +6,20 @@ public class Queue_using_arr {
         static int arr[];
         static int size;
         static int rear;
+        static int front;
 
         Queue(int n){
             arr = new int[n];
             size = n;
             rear = -1;
+            
         }
 
         //isEmpty fun..
         public static boolean isEmpty(){
-            return rear == -1;
+            return rear == -1 && front ==-1;
         }
+        
 
         //add function..
         public static void add(int data){

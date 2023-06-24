@@ -1,0 +1,149 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main"
+public class Main {
+
+  //linear search...
+  
+  public static int LSearch(int arr[], int key){
+    for(int i = 0;i<arr.length ;i++){
+      if(key == arr[i]){
+        return i;
+      }
+    }
+    return -1;
+  }
+
+
+  //binary search..
+
+  public static int B_Search(int arr[] , int key){
+    int si =0;
+    int ei = arr.length -1;
+    while(ei>= si){
+      int mid = (si+ei)/2;
+      if(arr[mid] == key){
+        return mid;
+      }
+      else if(arr[mid]<key){
+        si = mid+1;
+      }else{
+       ei = mid-1;
+
+      }
+    }
+    return -1;
+  }
+
+  //binary search recursive ..
+ public static int binarySearchR(int arr[], int key, int si , int ei){
+    //base case ..
+    if(si>ei){
+      return -1;
+    }
+
+    while(ei>= si){
+      int mid = (si+ei)/2;
+      if(arr[mid] == key){
+        return mid;
+      }else if(arr[mid]<key){
+        return binarySearchR(arr, key, mid+1,ei);
+      }else{
+         return binarySearchR(arr, key,si, mid-1);}
+    }
+     return -1;
+}
+
+//reverse an Array..
+public static void revereArr(int arr[]){
+  int si = 0;
+  int ei = arr.length-1;
+  while(ei>=si){
+    int tem = arr[ei];
+    arr[ei] = arr[si];
+    arr[si] =tem;
+    si++;
+    ei--;
+  }
+}
+
+
+//pair in array..
+
+public static void pairInArr(int arr[]){
+  int count = 0; //count the number of pair...
+  for(int i = 0 ;i<arr.length ;i++){
+    int curr = arr[i];
+    for(int j = i+1;j < arr.length ;j++){
+      System.out.print("(" + curr + "," + arr[j] + ")");
+      count++;
+    }
+    System.out.println();
+  }
+   System.out.println("The number of pair is: "+ count);
+}
+
+
+//print sub array..
+ public static void printSubArray(int arr[]){
+  for(int i =0 ;i<arr.length;i++){
+    for(int j = i ;j<arr.length;j++){
+      for(int k = i ;k<=j ;k++){
+         System.out.print(arr[k]+ " ");
+      }
+       System.out.println();
+    }
+     System.out.println();
+  }
+ }
+
+ //Maximum sum of sub array..
+ public static int maxsum(int arr[]){
+  int currSum = 0;
+  int maxSum = Integer.MIN_VALUE;
+  for(int i = 0; i<arr.length;i++){
+    currSum += arr[i];
+
+    if(currSum> maxSum){
+      maxSum = currSum;
+    }
+    if(currSum < 0){
+      return -1;
+    }
+  }
+  return maxSum;
+ }
+
+
+
+    //print function of an array...
+    public static void printArr(int arr[]){
+      for(int i = 0;i<arr.length;i++){
+         System.out.print(arr[i]+ " ");
+      }
+       System.out.println();
+    } 
+    public static void main(String[] args) {
+      int arr[]={2,4,6,8,10};
+        //revereArr(arr);
+        printArr(arr);
+        System.out.println("The length of array is: " + arr.length);
+        int key =8;
+        
+
+        int index = binarySearchR(arr, key, 0, arr.length-1);
+        if(index ==-1){
+           System.out.println("The key is't exist in the array!!");
+        }else{
+           System.out.println("The key " + key + " is found at index " + index);
+        }
+
+        //pair in array..
+         pairInArr(arr);
+         printSubArray(arr);
+        System.out.println("Maximum subarray sum : "+maxsum(arr)); 
+
+    }
+}

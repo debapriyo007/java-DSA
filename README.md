@@ -42,7 +42,7 @@ public class hello_world {
  - 📂 [**14_LinkList**](https://github.com/debapriyo007/java-DSA/tree/main/14_LinkList)
  - 📂 [**15_Stack**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
  - 📂 [**16_Queue**](https://github.com/debapriyo007/java-DSA/tree/main/16_Queue)
- - 📂 [**17_Greedy**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
+ - 📂 [**17_Greedy**]( https://github.com/debapriyo007/java-DSA/tree/main/17_Greedy)
  - 📂 [**16_Hashing**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
  
   

@@ -17,7 +17,7 @@ public class prb1 {
             // }
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
         }
-
+ 
         //Set<Integer> keySet = map.keySet();
         for (Integer key : map.keySet()) { // for each loop
             if (map.get(key) > arr.length / 3) {

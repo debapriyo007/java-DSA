@@ -29,7 +29,7 @@ public class prb2 {
     }
     public static void main(String[] args) {
         String s = "tulip";
-        String t = "lipid";
+        String t = "lipu";
         // String s = "race";
         // String t = "care";
         System.out.println(Anagram(s, t));

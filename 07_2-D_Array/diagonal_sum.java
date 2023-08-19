@@ -27,6 +27,8 @@ public class diagonal_sum {
         for(int i=0;i<matrix.length;i++)
         {   //primary diagonal
             sum+= matrix[i][i];
+
+            //secondary digonal
             if(i!= matrix.length-1-i){
                 sum+=matrix[i][matrix.length-1-i];
             }

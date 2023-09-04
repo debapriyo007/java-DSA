@@ -16,7 +16,7 @@ public class prb_07 {
                 while (s.pop() != '(') {
                     count++;
                 }
-                if (count <= 1) {
+                if (count < 1) {
                     return true; // means duplicate is exist..
                 }
             } else {// case 2 : Opening , Operator, Operand..

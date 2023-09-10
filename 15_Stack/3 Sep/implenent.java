@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class implenent {
-    /*implement stack using ArrayList..
+    /*----------------------------implement stack using ArrayList-----------------------------------
 
 
     static class Stack{
@@ -37,7 +37,7 @@ public class implenent {
     }*/
 
 
-    /*Implement using LinkList ---> Important Implementation.. 
+    /*---------------------Implement using LinkList ---> Important Implementation..---------------------------------- 
     //Node class..
     static class Node {
         int data;
@@ -85,7 +85,7 @@ public class implenent {
         } 
     }*/    
 
-    //Implementation using Array..
+    //-----------------------------Implementation using Array --------------------------------------
 
     public static class Stack{
         private int arr[] = new int[6];

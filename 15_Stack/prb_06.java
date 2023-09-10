@@ -5,6 +5,7 @@ public class prb_06 {
     public static boolean isVaild(String str){
           //creating a stack..
           Stack<Character> s = new Stack<>();
+          
           for(int i = 0 ;i<str.length();i++){
             char ch = str.charAt(i);
 

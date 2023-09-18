@@ -1,4 +1,4 @@
-# **❗️Part 2 is very Important❗️**
+# **❗️BST Part 2 is very Important❗️**
 ###### This Queston ❗️
 ```python
 import java.util.*;

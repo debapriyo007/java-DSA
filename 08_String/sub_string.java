@@ -15,7 +15,7 @@ public class sub_string {
 
     public static void main(String[] args) {
         
-        String str="Hello World";
+        String str="HelloWorld";
 
         // System.out.println(find_out_sub(str, 0, 5));
         

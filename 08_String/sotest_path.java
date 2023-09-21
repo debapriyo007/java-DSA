@@ -36,7 +36,7 @@ public class sotest_path {
 
     public static void main(String[] args) {
 
-        String path = "WNEENESENNN";
+        String path = "SSSNEEEW";
         System.out.println(findoutSortestpath(path));   
     }
 

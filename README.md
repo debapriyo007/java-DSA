@@ -52,7 +52,7 @@ public class hello_world {
   
 ---
 
-#### More Linklist code will update as soon as possible..........😊🤞
+####  update soon ..😊🤞
 
 
 

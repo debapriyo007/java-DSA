@@ -20,7 +20,7 @@ public class hello_world {
 ```
 
 ## 🔗[Java-DSA](https://github.com/debapriyo007/java-Basic/)
-## ![Code Screenshot](https://raw.githubusercontent.com/debapriyo007/java-Basic/main/Screenshot%20(15).png)
+## ![Code Screenshot]()
 ## 🧑‍💻 Description 
 #### 📌 _This is  Codes that i uploaded. More codes will be uploaded as soon as possible_ 🔜..
 ##### Java is a multi-platform, object-oriented, and network-centric programming language Java is a general-purpose, class-based, object-oriented programming language. Java Platform is a collection of programs that help programmers to develop and run Java applications efficiently.

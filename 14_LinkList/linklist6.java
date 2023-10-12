@@ -46,7 +46,7 @@ public class linklist6 {
 
 
     //zig Zag fun..
-    public void zigZag(){
+    public void zigZag(){ //This is in LEETCODE name as  "Reorder List"
         //step1: find the middle of the node..
         Node slow = head;
         Node fast = head.next;

@@ -45,6 +45,7 @@ public class hello_world {
  - 📂 [**17_Greedy**]( https://github.com/debapriyo007/java-DSA/tree/main/17_Greedy)
  - 📂 [**18_Hashing**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
  - 📂 [**19_Tries**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
+ - 📂 [**20_Tries**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
  
   
  

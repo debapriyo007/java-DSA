@@ -1,14 +1,14 @@
 # **🎯JAVA DSA**
-## _This is Java-DSA repository.I keep my all questions in this repository.._
+## This is Java-DSA repository.I keep my all questions in this repository.._
 ---
-## **🤷‍♂️ABOUT THIS REPOSITORY:-**
+## **🤷‍♂️ ABOUT THIS REPOSITORY**
 
 - **Total Data Structure  is cover.**
 - **Imp questions are cover.**
 - **Describe  the code proper way with given comments.**
 - **You can easily find any tropics according to the folders name.**
 ---
-###### 😁
+## 😁 
 ```python
 public class hello_world {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class hello_world {
 ## 🔗[Java-DSA](https://github.com/debapriyo007/java-Basic/)
 
 ## 🧑‍💻 Description 
-#### 📌 _This is  Codes that i uploaded. More codes will be uploaded as soon as possible_ 🔜..
+#### 📌 This is  Codes that i uploaded. More codes will be uploaded as soon as possible_ 🔜..
 ##### Java is a multi-platform, object-oriented, and network-centric programming language Java is a general-purpose, class-based, object-oriented programming language. Java Platform is a collection of programs that help programmers to develop and run Java applications efficiently.
 ## 📖**Tropics** 
 ######  _The tropics that i cover are below .👇 (More tropics will be updated soon..🔜)_
@@ -45,7 +45,7 @@ public class hello_world {
  - 📂 [**17_Greedy**]( https://github.com/debapriyo007/java-DSA/tree/main/17_Greedy)
  - 📂 [**18_Hashing**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
  - 📂 [**19_Tries**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
- - 📂 [**20_Tries**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
+
  
   
  

@@ -15,6 +15,6 @@ public class prefix {
     }
     public static Node root = new Node();
     public static void main(String[] args) {
-        String arr[] ={"zebra" ,"dog" , "duck" , "dove"};
+        String arr[] ={"zebra" ,"dog" , "duck" , "dove"}; //create array of strings
     }
 }

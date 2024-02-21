@@ -56,9 +56,11 @@ public class Traversal {
     }
 
 
-    //--------BFS Traversal Methord ---------.
+    // BFS Traversal Methord...  
+    // Time Complexity -> 0(V+E)  SC -> 0(V)
+    
 
-    public static void bfs( ArrayList<Edge>grap[]){
+    public static void bfs(ArrayList<Edge>grap[]){
         Queue<Integer> q = new LinkedList<>();
         // Created a boolean array to track which node i visited, and i don't want to print one node multiple time
         boolean visted[] = new boolean[grap.length];
@@ -81,6 +83,23 @@ public class Traversal {
                 }
             }
         }
+    }
+
+    // DFS Traversal Methord...
+    // Time Complexity - 0(V+E)
+    public static void dfs(ArrayList<Edge>graph[], int currNode, boolean visted[]){
+         //visit my currentNode.
+         System.out.print(currNode+ " ");
+         visted[currNode] = true;
+
+         //call for current node neighbour.
+         for( int i = 0;i<graph[currNode].size();i++){
+            Edge e = graph[currNode].get(i);
+            if(!visted[e.dest]){
+                dfs(graph, e.dest, visted);
+            }
+        }
+
     }
 
     public static void main(String[] args) {
@@ -119,8 +138,16 @@ public class Traversal {
         int V = 7;
         ArrayList<Edge>grap[] = new ArrayList[V];
         createGraph(grap);
+
         //print bfs traversal
+        System.out.print("BFS Traversal is :");
         bfs(grap);
+ 
+        System.out.println();
+
+        System.out.print("DFS Traversal is :");
+        //call Dfs traversal.
+        dfs(grap, 0,new boolean[V]); 
 
     }
 }

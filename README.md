@@ -1,31 +1,45 @@
-# **🎯JAVA DSA**
-## This is Java-DSA repository.I keep my all questions in this repository.._
----
-## **🤷‍♂️ ABOUT THIS REPOSITORY**
+# Java Data Structures and Algorithms Repository 🔥
 
-- **Total Data Structure  is cover.**
-- **Imp questions are cover.**
-- **Describe  the code proper way with given comments.**
-- **You can easily find any tropics according to the folders name.**
----
-## 😁 
-```python
-public class hello_world {
-    public static void main(String[] args) {
+This repository contains implementations of various data structures and algorithms in Java.
 
-        System.out.println("Well Come to Java-DSA");
-       
-       }
-}
-```
+## Table of Contents
 
-## 🔗[Java-DSA](https://github.com/debapriyo007/java-Basic/)
+1. [Introduction](#introduction)
+2. [Data Structures](#data-structures)
+3. [Algorithms](#algorithms)
+4. [Contributing](#contributing)
+5. [License](#license)
 
-## 🧑‍💻 Description 
-#### 📌 This is  Codes that i uploaded. More codes will be uploaded as soon as possible_ 🔜..
-##### Java is a multi-platform, object-oriented, and network-centric programming language Java is a general-purpose, class-based, object-oriented programming language. Java Platform is a collection of programs that help programmers to develop and run Java applications efficiently.
+## Introduction
+
+This repository serves as a collection of commonly used data structures and algorithms implemented in Java. It's intended for educational purposes and as a reference for those studying computer science, preparing for coding interviews, or simply interested in understanding the fundamentals of algorithms and data structures.
+
+## Data Structures
+
+The following data structures are implemented in this repository:
+
+1. **Linked List**: Singly linked list, doubly linked list.
+2. **Stack**: Array-based stack, linked list-based stack.
+3. **Queue**: Array-based queue, linked list-based queue.
+4. **Binary Tree**: Binary search tree, AVL tree.
+5. **Heap**: Min-heap, max-heap.
+6. **Hash Table**: Separate chaining, open addressing.
+
+Each data structure is implemented with clear comments and explanations to aid understanding.
+
+## Algorithms
+
+The following algorithms are implemented in this repository:
+
+1. **Sorting Algorithms**: Bubble sort, selection sort, insertion sort, merge sort, quicksort.
+2. **Searching Algorithms**: Linear search, binary search.
+3. **Graph Algorithms**: Breadth-first search (BFS), depth-first search (DFS), Dijkstra's algorithm, 
+Bellman-Ford algorithm.
+
+
+
 ## 📖**Tropics** 
-######  _The tropics that i cover are below .👇 (More tropics will be updated soon..🔜)_
+######  The tropics that i cover are below .
  - 📂 [**01_Varriable and data type**](https://github.com/debapriyo007/java-Basic/tree/main/01_Varriable%20and%20data%20type)
  - 📂 [**02_Operator**](https://github.com/debapriyo007/java-Basic/tree/main/02_Operator)
  - 📂 [**03_If else ,loop, pattern**](https://github.com/debapriyo007/java-Basic/tree/main/03_If%20else%20%2Cloop%2C%20pattern)
@@ -45,15 +59,25 @@ public class hello_world {
  - 📂 [**17_Greedy**]( https://github.com/debapriyo007/java-DSA/tree/main/17_Greedy)
  - 📂 [**18_Hashing**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
  - 📂 [**19_Tries**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
+  - 📂 [**20_Graph**]( https://github.com/debapriyo007/java-DSA/tree/main/15_Stack)
 
  
   
  
  
-  
----
 
-####  update soon ..😊🤞
+## Contributing
 
+Contributions to this repository are welcome! If you'd like to contribute an implementation of a data structure or algorithm, please follow these guidelines:
 
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-data-structure`).
+3. Implement the data structure or algorithm with clear comments and explanations.
+4. Ensure all existing tests pass and add new tests if necessary.
+5. Commit your changes (`git commit -am 'Add new data structure'`).
+6. Push to the branch (`git push origin feature/new-data-structure`).
+7. Create a new pull request.
 
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

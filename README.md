@@ -1,14 +1,6 @@
 # Java Data Structures and Algorithms Repository 🔥
 
-This repository contains implementations of various data structures and algorithms in Java.
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Data Structures](#data-structures)
-3. [Algorithms](#algorithms)
-4. [Contributing](#contributing)
-5. [License](#license)
+This repository contains implementations of various data structures and algorithms in Java
 
 ## Introduction
 

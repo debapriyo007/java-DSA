@@ -3,7 +3,7 @@
 public class PrimeNumCheck {
     public static void main(String[] args) {
         int n = 97;
-        System.out.println(isPrime(n));
+        printPrimeNumbers(n);
     }
     public static boolean isPrime(int n){
         int count = 0;
@@ -18,6 +18,15 @@ public class PrimeNumCheck {
             return false;
         }
     }
+   
+    public static void printPrimeNumbers(int n){
+        for(int i = 1;i<=n;i++){
+            if(isPrime(i)){
+                System.out.println(i);
+            }
+        }
+    }
+
 
 
 }

@@ -19,15 +19,6 @@ The following data structures are implemented in this repository:
 
 Each data structure is implemented with clear comments and explanations to aid understanding.
 
-## Algorithms
-
-The following algorithms are implemented in this repository:
-
-1. **Sorting Algorithms**: Bubble sort, selection sort, insertion sort, merge sort, quicksort.
-2. **Searching Algorithms**: Linear search, binary search.
-3. **Graph Algorithms**: Breadth-first search (BFS), depth-first search (DFS), Dijkstra's algorithm, 
-Bellman-Ford algorithm.
-
 
 
 ## 📖**Tropics** 
